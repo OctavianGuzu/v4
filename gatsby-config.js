@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Octavian Guzu | Personal Website',
     description: 'Octavian Guzu is an OSCP Certified Penetration Tester and Security Engineer.',
-    siteUrl: 'https://octavainguzu.com', // No trailing slash allowed!
+    siteUrl: 'https://octavianguzu.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@GuzuOctavian',
   },
