@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Burpsuite', 'Offensive Security', 'Web Applications', 'Red-Teaming', 'Network Protocols', 'Reverse Engineering'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +141,20 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Octavian, a security engineer based in Bucharest, RO.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I can audit applications for security issues and provide penetration tests reports. My goal is to help developers
+              write secure code and to minimise the risk that attackers may pose to an organization. 
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I am currently pursuing a master's degree in Cybersecurity at <a href="https://upb.ro/">University Politehnica of Bucharest</a>
+               {' '}and working as a full-time security engineer at <a href="https://emag.ro">eMAG</a>. I am also a
+                {' '}<a href="https://www.synack.com/">Synack</a>{' '} Red Team Member.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are a few of the technologies/concepts that I'm working with:</p>
           </div>
 
           <ul className="skills-list">

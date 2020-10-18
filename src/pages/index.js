@@ -13,12 +13,23 @@ const IndexPage = ({ location }) => (
       <Hero />
       <About />
       <Jobs />
-      <Featured />
-      <Projects />
       <Contact />
     </StyledMainContainer>
   </Layout>
 );
+
+// const IndexPage = ({ location }) => (
+//   <Layout location={location}>
+//     <StyledMainContainer className="fillHeight">
+//       <Hero />
+//       <About />
+//       <Jobs />
+//       <Featured />
+//       <Projects />
+//       <Contact />
+//     </StyledMainContainer>
+//   </Layout>
+// );
 
 IndexPage.propTypes = {
   location: PropTypes.object.isRequired,
