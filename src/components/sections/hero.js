@@ -49,11 +49,9 @@ const Hero = () => {
 
   const one = <h1>Hello, my name is</h1>;
   const two = <h2 className="big-heading">Octavian Guzu.</h2>;
-  const three = <h3 className="big-heading">I break stuff to keep them secure.</h3>;
+  const three = <h3 className="big-heading">I find vulnerabilities in software projects.</h3>;
   const four = (
-    <p>
-      I'm an OSCP Certified Penetration Tester, Security Engineer and Synack Red Team Member.
-    </p>
+    <p>I'm an OSCP Certified Penetration Tester, Security Engineer and Synack Red Team Member.</p>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
