@@ -3,8 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Octavian Guzu',
-    description:
-      'Octavian Guzu is an OSCP Certified Penetration Tester and Security Engineer.',
+    description: 'Octavian Guzu is an OSCP Certified Penetration Tester and Security Engineer.',
     siteUrl: 'https://octavguzu.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@GuzuOctavian',
@@ -148,12 +147,12 @@ module.exports = {
         ],
       },
     },
-    
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: 'UA-45666519-2',
-    //   },
-    // },
+
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-180824020-1',
+      },
+    },
   ],
 };
