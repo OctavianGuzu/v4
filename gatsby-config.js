@@ -154,5 +154,6 @@ module.exports = {
         trackingId: 'UA-180824020-1',
       },
     },
+    `gatsby-plugin-client-side-redirect`,
   ],
 };

@@ -12,6 +12,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
 
+  const { createRedirect } = actions; //actions is collection of many actions - https://www.gatsbyjs.org/docs/actions
+  createRedirect({ fromPath: '/resume', toPath: '/resume.pdf', isPermanent: true });
+
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
